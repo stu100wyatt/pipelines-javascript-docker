@@ -41,5 +41,5 @@ stages:
       inputs:
         scanType: 'images'
         twistlockService: 'PrismaCloudConsoleEU'
-        artifact: 'jsdockerexample'
+        artifact: 'jsdockerexample:272'
  
