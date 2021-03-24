@@ -32,4 +32,9 @@ stages:
         scanType: 'images'
         twistlockService: 'PrismaCloudConsoleEU'
         artifact: 'node:8'
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'ACRPrismaCloud'
+        repository: 'jsdockerexample'
+        command: 'push'
     
